@@ -4,7 +4,7 @@ Version: 1.0.0
 
 A responsive task management application for recording student assignments, subjects, due dates, priority levels, and completion status.
 
-## Features
+ Features
 
 - Create tasks with a title, subject, due date, and priority
 - View all tasks
@@ -15,14 +15,14 @@ A responsive task management application for recording student assignments, subj
 - Persist tasks through a Supabase database
 - Use a local browser preview when the API is not configured
 
-## Technology
+ Technology
 
-- HTML, CSS, and JavaScript
+- HTML, CSS
 - Vercel serverless functions
 - Supabase PostgreSQL
 - GitHub for source control
 
-## Project structure
+ Project structure
 
 - `index.html` — application page
 - `style.css` — responsive interface
@@ -31,7 +31,7 @@ A responsive task management application for recording student assignments, subj
 - `supabase-schema.sql` — database table definition
 - `docs/` — project plans and logs
 
-## Local setup
+ Local setup
 
 1. Install Node.js.
 2. Create a Supabase project.
@@ -44,8 +44,7 @@ A responsive task management application for recording student assignments, subj
 9. Open the local URL shown by Vercel.
 
 Keep the service-role key private. Never place it in `app.js`, `index.html`, or any other frontend file. Do not commit `.env.local`.
-
-## Deployment
+ Deployment
 
 1. Push the project to a GitHub repository.
 2. Import the repository into Vercel.
@@ -53,18 +52,17 @@ Keep the service-role key private. Never place it in `app.js`, `index.html`, or 
 4. Deploy the project.
 5. Open the deployed URL and test task creation, listing, completion, and deletion.
 
-## API
-
+API
 - `GET /api/tasks` — list tasks
 - `POST /api/tasks` — create a task
 - `PATCH /api/tasks?id=TASK_ID` — update completion status
 - `DELETE /api/tasks?id=TASK_ID` — delete a task
 
-## Version history
+ Version history
 
 - `1.0.0` — initial project structure, responsive interface, task API, and Supabase integration.
 
-## Testing checklist
+Testing checklist
 
 - Add a task with a title.
 - Add a task with a subject, due date, and priority.
@@ -75,6 +73,6 @@ Keep the service-role key private. Never place it in `app.js`, `index.html`, or 
 - Try an empty title and confirm it is rejected.
 - Test the live deployment after every release.
 
-## Limitations
+Limitations
 
 This academic starter project does not include user accounts. The API uses a server-side Supabase service-role key and is intended for a controlled demonstration. Before public production use, add authentication, authorization, rate limiting, and stricter access controls.
