@@ -1,7 +1,9 @@
 Student Task Tracker
 
 Project Type: Capstone Project  
+
 Developer: Melchor Aboc
+
 FrontEnd: Kevin Jay Gracias
 
 Project Description
