@@ -1,6 +1,5 @@
 Student Task Tracker
 
-Version: 1.0.0  
 Project Type: Capstone Project  
 Developer: Melchor Aboc
 FrontEnd: Kevin Jay Gracias
